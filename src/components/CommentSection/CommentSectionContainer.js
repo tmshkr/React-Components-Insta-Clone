@@ -1,5 +1,5 @@
 // You will add code to this file
-import React, { useState } from "react";
+import React, { useState, memo } from "react";
 import CommentInput from "./CommentInput";
 import Comment from "./Comment";
 import "./Comment.css";
@@ -35,4 +35,4 @@ const CommentSection = props => {
   );
 };
 
-export default CommentSection;
+export default memo(CommentSection);
