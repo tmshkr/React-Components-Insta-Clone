@@ -1,5 +1,6 @@
 const dummyData = [
   {
+    id: 1,
     username: "realgrumpycat",
     thumbnailUrl: "images/grumpy-cat-thumbnail.jpg",
     imageUrl: "images/grumpy-cat-image.jpg",
@@ -21,6 +22,7 @@ const dummyData = [
     ]
   },
   {
+    id: 2,
     username: "philzcoffee",
     thumbnailUrl: "images/philz-coffee.jpg",
     imageUrl: "images/philz-image.jpg",
@@ -43,6 +45,7 @@ const dummyData = [
     ]
   },
   {
+    id: 3,
     username: "twitch",
     thumbnailUrl: "images/twitch.jpg",
     imageUrl: "images/twitch-image.jpg",

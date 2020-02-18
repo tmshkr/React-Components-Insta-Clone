@@ -13,8 +13,8 @@ const PostsPage = props => {
       {/* map through data here to return a Post and pass data as props to Post */}
       {data
         .filter(post => post.username.includes(props.searchText))
-        .map((post, i) => (
-          <Post key={i} post={post} />
+        .map(post => (
+          <Post key={post.id} post={post} />
         ))}
     </div>
   );
