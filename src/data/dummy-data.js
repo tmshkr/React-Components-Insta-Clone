@@ -1,9 +1,29 @@
 const dummyData = [
   {
+    username: "realgrumpycat",
+    thumbnailUrl: "images/grumpy-cat-thumbnail.jpg",
+    imageUrl: "images/grumpy-cat-image.jpg",
+    likes: 418,
+    timestamp: "January 7th 2020, 12:42:40 pm",
+    comments: [
+      {
+        username: "internetcats",
+        text: "Miss her!"
+      },
+      {
+        username: "cats4lyfe",
+        text: "We love you grumpy!"
+      },
+      {
+        username: "grumpyfan5555",
+        text: "Miss grumpy so much"
+      }
+    ]
+  },
+  {
     username: "philzcoffee",
     thumbnailUrl: "images/philz-coffee.jpg",
-    imageUrl:
-      "https://images.unsplash.com/photo-1477763858572-cda7deaa9bc5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1876&q=80",
+    imageUrl: "images/philz-image.jpg",
     likes: 400,
     timestamp: "July 17th 2017, 12:42:40 pm",
     comments: [
@@ -25,8 +45,7 @@ const dummyData = [
   {
     username: "twitch",
     thumbnailUrl: "images/twitch.jpg",
-    imageUrl:
-      "https://images.unsplash.com/photo-1566577134770-3d85bb3a9cc4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3750&q=80",
+    imageUrl: "images/twitch-image.jpg",
     likes: 4307,
     timestamp: "July 15th 2017, 03:12:09 pm",
     comments: [
