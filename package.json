@@ -9,12 +9,18 @@
     "react-fontawesome": "^1.6.1",
     "react-scripts": "1.1.4"
   },
+  "homepage": "http://tmshkr.github.io/React-Components-Insta-Clone",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "react-scripts build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
 }

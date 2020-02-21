@@ -1,21 +1,31 @@
 .search-bar-wrapper {
   border-bottom: 1px solid #3333;
   height: 60px;
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   background: #ffffff;
 }
+
+i.fa-instagram {
+  font-size: 1.5rem;
+}
+
 .search-form {
-  width: 150px;
-  font-size: 14px;
+  width: 100%;
+  margin: auto;
 }
 .search-form input {
   text-align: center;
   color: #262626;
+  font-size: 14px;
+  padding: 6px;
+  width: 100%;
 }
 .image-wrapper {
   height: 50px;
+  display: grid;
+  align-content: center;
 }
 
 .logo-image {
@@ -24,6 +34,7 @@
 
 .social-wrapper {
   display: flex;
+  margin-left: 3rem;
 }
 
 .social {
